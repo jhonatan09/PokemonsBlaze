@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/PokemonsBlaze/static/css/main.d6863c8c.chunk.css",
+    "main.js": "/PokemonsBlaze/static/js/main.da316725.chunk.js",
+    "main.js.map": "/PokemonsBlaze/static/js/main.da316725.chunk.js.map",
+    "runtime-main.js": "/PokemonsBlaze/static/js/runtime-main.7af8f364.js",
+    "runtime-main.js.map": "/PokemonsBlaze/static/js/runtime-main.7af8f364.js.map",
+    "static/js/2.6c6b5c93.chunk.js": "/PokemonsBlaze/static/js/2.6c6b5c93.chunk.js",
+    "static/js/2.6c6b5c93.chunk.js.map": "/PokemonsBlaze/static/js/2.6c6b5c93.chunk.js.map",
+    "index.html": "/PokemonsBlaze/index.html",
+    "static/css/main.d6863c8c.chunk.css.map": "/PokemonsBlaze/static/css/main.d6863c8c.chunk.css.map",
+    "static/js/2.6c6b5c93.chunk.js.LICENSE.txt": "/PokemonsBlaze/static/js/2.6c6b5c93.chunk.js.LICENSE.txt",
+    "static/media/pokemon-png-logo.927812cc.png": "/PokemonsBlaze/static/media/pokemon-png-logo.927812cc.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7af8f364.js",
+    "static/js/2.6c6b5c93.chunk.js",
+    "static/css/main.d6863c8c.chunk.css",
+    "static/js/main.da316725.chunk.js"
+  ]
+}
