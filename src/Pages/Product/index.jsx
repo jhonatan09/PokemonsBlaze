@@ -6,11 +6,10 @@ import {Link} from 'react-router-dom';
 
 const Product = () => {
     const location = useLocation()
-    console.log(location.state.items)
     const {ClickAddToCart} = useContext(DataContext);
     return (
         <div className="Product">
-            <Link to={'/PokemonsBlaze'}>
+            <Link to={'/PokemonsBlaze/'}>
                 Voltar para home
             </Link>
             <div className="Product-body">

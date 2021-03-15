@@ -1,5 +1,4 @@
-import React, {useState, useEffect} from "react"
-import axios from 'axios';
+import React, {useState, useEffect} from "react";
 import Auth from '../services';
 
 
@@ -82,7 +81,6 @@ const ClickAddToCart = (details) => {
 
 
 const ToggleCartMob = () => {
-  console.log("entrou")
   setOpenModal(currentVa => currentVa = !openModal)
 }
 

@@ -1,9 +1,8 @@
-import React,{useContext, useEffect, useState} from 'react';
+import React,{useContext} from 'react';
 import {DataContext} from '../Store'
-import axios from 'axios';
 import Header from '../Component/Header';
 import Home from './Home';
-import {Link, Switch, Route} from 'react-router-dom';
+import { Switch, Route} from 'react-router-dom';
 import Product from './Product';
 import OrderPlacedComponent from '../Component/OrderPlaced'
 
@@ -19,7 +18,7 @@ const Main = () => {
                     :
 
                     <Switch>
-                        <Route exact path="/PokemonsBlaze">
+                        <Route exact path="/PokemonsBlaze/">
                             <Home />
                         </Route>
                         <Route path="/PokemonsBlaze/Product">

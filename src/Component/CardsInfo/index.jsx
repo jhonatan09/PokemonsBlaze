@@ -1,10 +1,10 @@
-import React, {useState, useContext, useEffect} from 'react';
+import React, {useContext, useEffect} from 'react';
 import {DataContext} from '../../Store'
 
 
 const CardsInfo = ({name, valor, image}) => {
 
-    const {totalPrice, setTotalPrice, changeValue, cartDetails} = useContext(DataContext);
+    const {setTotalPrice, changeValue} = useContext(DataContext);
 
     useEffect(() => {
         setTotalPrice(currentValue => currentValue + valor)
@@ -12,7 +12,6 @@ const CardsInfo = ({name, valor, image}) => {
 
     },[changeValue])
 
-    // setTotalPrice(valor)
     return (
         <div className="cart-body_details">
              <img src={image} alt={name}/>
