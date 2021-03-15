@@ -10,7 +10,7 @@ const Product = () => {
     const {ClickAddToCart} = useContext(DataContext);
     return (
         <div className="Product">
-            <Link to={'/'}>
+            <Link to={'/PokemonsBlaze'}>
                 Voltar para home
             </Link>
             <div className="Product-body">

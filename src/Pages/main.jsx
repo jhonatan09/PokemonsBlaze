@@ -19,10 +19,10 @@ const Main = () => {
                     :
 
                     <Switch>
-                        <Route exact path="/">
+                        <Route exact path="/PokemonsBlaze">
                             <Home />
                         </Route>
-                        <Route path="/Product">
+                        <Route path="/PokemonsBlaze/Product">
                             <Product />
                         </Route>
                     </Switch>

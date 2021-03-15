@@ -19,7 +19,7 @@ const Card = () => {
                        
                         return (
                             <div className="card" key={index} >
-                                <Link to={{ pathname:"/Product", state: {items} }}>
+                                <Link to={{ pathname:"/PokemonsBlaze/Product", state: {items} }}>
                                 <img src={items.sprites.front_default} alt={items.name}/>
                                 <h3>{items.name}</h3>
                                 <span>Price: R${valor.toLocaleString('pt-br', {minimumFractionDigits: 2})}</span>
@@ -45,7 +45,7 @@ const Card = () => {
                                         {items["prices"] = valor}
                                     </span>
                                     <div className="card" key={index} >
-                                        <Link to={{ pathname:"/Product", state: {items} }}>
+                                        <Link to={{ pathname:"/PokemonsBlaze/Product", state: {items} }}>
                                         <img src={items.sprites.front_default} alt={items.name}/>
                                         <h3>{items.name}</h3>
                                         <span>Price: R${valor.toLocaleString('pt-br', {minimumFractionDigits: 2})}</span>
